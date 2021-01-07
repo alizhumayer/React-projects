@@ -1,0 +1,9 @@
+.exerciseSelectLink a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.exerciseSelectLink a:visited {
+  text-decoration: none;
+  color: #fff;
+}

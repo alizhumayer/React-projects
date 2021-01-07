@@ -1,0 +1,56 @@
+.HomeInfobox {
+  display: flex;
+  min-width: 360px;
+  max-width: 650px;
+  flex-basis: 360px;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.HomePicture {
+  text-align: right;
+  align-items: center;
+  justify-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.HomePicture > img {
+  max-height: 550px;
+  max-width: 100%;
+}
+#HomeInfos {
+  margin-left: 10px;
+}
+
+#HomeFirstLine {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #757575;
+  margin-bottom: 15px;
+}
+#HomeSecondLine {
+  font-family: 'Oswald', sans-serif;
+  font-size: 43px;
+  text-transform: uppercase;
+  color: #404040;
+  margin-bottom: 25px;
+}
+#HomeIntroduction {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #868686;
+  margin-bottom: 45px;
+}
+#HomeButton {
+  font-family: 'Merriweather', serif;
+  font-size: 0.85rem;
+  padding-bottom: 25px;
+}
+
+#HomeButton a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}

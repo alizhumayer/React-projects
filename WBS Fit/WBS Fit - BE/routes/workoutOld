@@ -1,0 +1,49 @@
+const router = require("express").Router();
+const Workout = require("../model/Workout");
+const Exercise = require("../model/Exercise");
+
+//CREATE NEW WORKOUT
+router.post("/add", async (req, res) => {
+    const workout = await new Workout({
+        name: req.body.name,
+        picture: req.body.picture,
+        description: req.body.description,
+        ratings: req.body.ratings,
+        exercises: req.body.exercises,
+    })
+    .save()
+
+  let savedWorkout;
+
+  try {
+    savedWorkout = await workout.save();
+
+    req.body.exercises.forEach((item) => console.log("Equipment ID: ", item));
+
+    // req.body.exercises.forEach((item) => {
+    //   console.log(savedWorkout.id);
+    //   Exercise.findOneAndUpdate(
+    //     {
+    //       _id: `${item}`,
+    //     },
+    //     { $push: { workout: `${savedWorkout.id}` } }
+    //   );
+    // console.log(Exercise.findOne(res.body.exercises[0]));
+
+    console.log("req.body.exercises : ", req.body.exercises[0]);
+    console.log("SavedWorkout.id : ", savedWorkout.id);
+
+    Exersise.findOne({ _id: req.body.exercises[0] }, function (err, result) {
+      if (err) throw err;
+      console.log(result);
+    });
+
+    return res.send("Created Workout");
+  } catch (err) {
+    return res.status(400).send(err);
+  }
+
+  if (!savedWorkout) return res.status(400).send("Workout could not be saved");  
+});
+
+module.exports = router;

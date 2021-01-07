@@ -1,0 +1,23 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body { margin: 0; }
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif; */
+/* margin-bottom: 15px; */
+
+#wrapper { border: 1px solid #000; display: flex; flex-direction: column; align-items: center; width:100%;}
+
+.navTopic { margin-right: 30px;}
+.container { display: flex; justify-content: center; width:100%; }
+.bor { border: 1px solid #f00 }
+.col { flex-direction: column; }
+.row { flex-direction: row; }
+.content960 { display: flex; width:960px; align-content: center; flex-wrap: wrap;}
+
+
+.spacer { margin: 25px 0px}
+
+#NewChapter { display: flex; width:100%; text-align: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 50px; text-transform: uppercase; color: #404040; margin: 15px 0px;}
+#FlexRow { display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap; flex-grow: 1;flex-shrink: 1;}

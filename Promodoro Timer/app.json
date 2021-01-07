@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Pomodoro Timer",
+    "description": "The project of Harvard CS50M project 1 - Pomodoro Timer",
+    "slug": "pomodoro-timer",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cs50m.pomodoro"
+    },
+    "android": {
+      "package": "com.cs50m.pomodoro"
+    }
+  }
+}

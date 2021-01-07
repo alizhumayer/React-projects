@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Movie Browser",
+    "slug": "movie-browser",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "For this project, you'll be implementing a movie browser. It will allow users to search for movies included in the Open Movie Database and view additional information about any movies they select.",
+    "githubUrl": "https://github.com/TammyLaforest/cs50m-project2"
+  }
+}

@@ -1,0 +1,43 @@
+#Footer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Merriweather';
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  font-size: 15px;
+}
+#FooterName {
+  justify-self: center;
+}
+#FooterSocial {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  margin: 5px;
+  color: rgb(0, 140, 255);
+}
+#FooterSocial > div {
+  margin: 0px 5px;
+}
+#FooterSocial a {
+  text-decoration: none;
+}
+
+#FooterSocial a:hover,
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+}
+
+#FooterSocial a:active {
+  text-decoration: none;
+  color: rgb(46, 158, 250);
+}
+
+#FooterCopy {
+  font-size: 10px;
+}

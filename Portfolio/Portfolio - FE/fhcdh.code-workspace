@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "E:\\WBS\\sambackend"
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}

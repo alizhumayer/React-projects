@@ -1,0 +1,53 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "eslint": "eslint ./src/",
+    "eslint-fix": "eslint --fix ./src/"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-umi": "^1.4.3",
+    "eslint-plugin-flowtype": "^3.8.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.11.0",
+    "exp": "^57.2.1",
+    "expo": "^32.0.0",
+    "expo-camera": "^4.0.0",
+    "expo-cli": "^2.17.2",
+    "global": "^4.3.2",
+    "moment": "^2.24.0",
+    "prettier": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-calendars": "^1.141.0",
+    "react-native-chart-kit": "^2.6.1",
+    "react-native-input-scroll-view": "^1.9.2",
+    "react-native-modal-datetime-picker": "^7.4.2",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-pose": "^0.9.0",
+    "react-native-swipe-gestures": "^1.0.3",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.9.1",
+    "react-navigation-tabs": "^2.1.2",
+    "react-redux": "6.0.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-persist": "^5.10.0",
+    "worker-farm": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}

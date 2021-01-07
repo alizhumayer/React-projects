@@ -1,0 +1,27 @@
+#AboutFirstLine {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #757575;
+}
+.AboutInfobox {
+  display: flex;
+  max-width: 540px;
+  flex-basis: 540px;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.AboutPercentage {
+  text-align: right;
+  align-items: center;
+  justify-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+#HomeButton a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
